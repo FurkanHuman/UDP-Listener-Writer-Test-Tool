@@ -10,7 +10,7 @@ namespace UDPWriter
             string address = Console.ReadLine();
             Console.Write("Port  girin: ");
             UInt16 port = UInt16.Parse(Console.ReadLine());
-
+            Console.Clear();
             while (true)
             {
                 String message = Console.ReadLine();
