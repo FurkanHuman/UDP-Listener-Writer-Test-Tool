@@ -14,6 +14,7 @@ namespace UDPWriter
             while (true)
             {
                 String message = Console.ReadLine();
+                Console.WriteLine("Time: " + DateTime.Now + ":" + DateTime.Now.Millisecond +" | "+ message);
                 UDPListener.UdpSocketWriter.Sender(address, port, message);
             }
         }
